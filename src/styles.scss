@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+:root {
+    --primeira-color: black;
+    --segunda-color: #ff2770;
+    --terceira-color: #45f3ff;
+
+}
+
+body {
+    height: 100vh;
+    //font-family: Arial, Helvetica, sans-serif;
+    //background-color: var(--primeira-color);
+    //color: white;    
+}
+

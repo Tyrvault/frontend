@@ -1,0 +1,20 @@
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+       
+        <form>
+            <h2>Próximo Eventos <br> </h2>     
+                        
+            <div class="card bg-transparent" >
+                <div class="card border-primary mb-2 bg-transparent text-align: center;" style="max-width: 25rem; min-width: 25rem;" *ngFor="let evento of eventos" >
+                    <div class="card-header text-white">{{evento.local}}</div>
+                    <div class="card-body text-white">
+                      <h5 class="card-title">{{evento.data}} - {{evento.hora}}</h5>
+                      <p class="card-text">{{evento.descricao}}</p>
+                    </div>
+                  </div>       
+                  
+            </div>
+        </form>        
+    </div>
+</body>

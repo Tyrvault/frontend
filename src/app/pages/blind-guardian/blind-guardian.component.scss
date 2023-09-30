@@ -1,0 +1,46 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.bandas {
+    overflow: hidden;
+    position: sticky;
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #23242a;
+}
+
+a:hover {
+    color: var(--terceira-color);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 100px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: white;
+    display: flex;
+    text-align: center;  
+    text-align: justify; 
+    padding: 5px 100px;
+}
+
+.card {
+    padding: 5px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;      
+}
+
